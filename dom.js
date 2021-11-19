@@ -133,8 +133,21 @@ let itemList = document.querySelector("#items");
 
 
 // childNodes
-console.log(itemList.childNodes);
+// console.log(itemList.childNodes);
+// pain in the arse to use it. instead use children
 
+// console.log(itemList.children);
+// console.log(itemList.children[1]);
+// itemList.children[1].style.backgroundColor = "yellow";
 
-
-
+// // firstChild
+// console.log(itemList.firstChild);
+// // firstElementChild
+// console.log(itemList.firstElementChild);
+// itemList.firstElementChild.textContent = "Hallo";
+ 
+// lastChild
+console.log(itemList.lastChild);
+// lastElementChild
+console.log(itemList.lastElementChild);
+itemList.lastElementChild.textContent = "Hallo";
