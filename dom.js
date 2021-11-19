@@ -147,7 +147,37 @@ let itemList = document.querySelector("#items");
 // itemList.firstElementChild.textContent = "Hallo";
  
 // lastChild
-console.log(itemList.lastChild);
+// console.log(itemList.lastChild);
 // lastElementChild
-console.log(itemList.lastElementChild);
-itemList.lastElementChild.textContent = "Hallo";
+// console.log(itemList.lastElementChild);
+// itemList.lastElementChild.textContent = "Hallo";
+
+
+// nextSibling
+// console.log(itemList.nextSibling);
+// nextElementSibling
+// console.log(itemList.nextElementSibling);
+
+// previousSibling
+// console.log(itemList.previousSibling);
+// previousElementSibling
+console.log(itemList.previousElementSibling);
+// @ts-ignore
+itemList.previousElementSibling.style.color = "green";
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
