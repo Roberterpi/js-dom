@@ -132,7 +132,8 @@ let itemList = document.querySelector("#items");
 // console.log(itemList.parentElement);
 
 
-
+// childNodes
+console.log(itemList.childNodes);
 
 
 
