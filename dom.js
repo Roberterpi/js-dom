@@ -104,7 +104,9 @@ let odd = document.querySelectorAll ("li:nth-child(odd)");
 let even = document.querySelectorAll ("li:nth-child(even)");
 
 for (let i = 0; i < odd.length; i++) {
+  // @ts-ignore
   odd[i].style.backgroundColor = "purple";
+  // @ts-ignore
   even[i].style.backgroundColor = "orange";
 }
 
