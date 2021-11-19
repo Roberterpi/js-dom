@@ -118,12 +118,18 @@
 
 let itemList = document.querySelector("#items");
 
-console.log(itemList.parentNode);
-itemList.parentNode.style.backgroundColor = "lightgrey";
-console.log(itemList.parentNode.parentNode.parentNode);
+// console.log(itemList.parentNode);
+// // @ts-ignore
+// itemList.parentNode.style.backgroundColor = "lightgrey";
+// console.log(itemList.parentNode.parentNode.parentNode);
 
 
+// find out parentElement
 
+// console.log(itemList.parentElement);
+// // @ts-ignore
+// itemList.parentElement.style.backgroundColor = "lightgrey";
+// console.log(itemList.parentElement);
 
 
 
