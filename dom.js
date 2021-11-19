@@ -10,11 +10,13 @@
 // console.log(document.links);
 // console.log(document.images);
 
-// selectors
+// GetelementsbyID
 
 // console.log(document.getElementById("header-title"));
-let headerTitle = document.getElementById("header-title");
+// let headerTitle = document.getElementById("header-title");
+// let header = document.getElementById("main-header");
 // console.log(headerTitle);
 // headerTitle.textContent = "Hello";
 // headerTitle.innerText = "LALa";
 // headerTitle.innerHTML = "<h3>Bye</h3>"
+// header.style.borderBottom = "solid 3px black";
