@@ -96,17 +96,38 @@
 // querySelectorAll
 
 
-let titles = document.querySelectorAll(".title");
-console.log(titles);
-titles[0].textContent = "Hioio";
+// let titles = document.querySelectorAll(".title");
+// console.log(titles);
+// titles[0].textContent = "Hioio";
 
-let odd = document.querySelectorAll ("li:nth-child(odd)");
-let even = document.querySelectorAll ("li:nth-child(even)");
+// let odd = document.querySelectorAll ("li:nth-child(odd)");
+// let even = document.querySelectorAll ("li:nth-child(even)");
 
-for (let i = 0; i < odd.length; i++) {
-  // @ts-ignore
-  odd[i].style.backgroundColor = "purple";
-  // @ts-ignore
-  even[i].style.backgroundColor = "orange";
-}
+// for (let i = 0; i < odd.length; i++) {
+//   // @ts-ignore
+//   odd[i].style.backgroundColor = "purple";
+//   // @ts-ignore
+//   even[i].style.backgroundColor = "orange";
+// }
+
+
+// TRAVERSING THE DOM
+
+
+// find out parentNode
+
+let itemList = document.querySelector("#items");
+
+console.log(itemList.parentNode);
+itemList.parentNode.style.backgroundColor = "lightgrey";
+console.log(itemList.parentNode.parentNode.parentNode);
+
+
+
+
+
+
+
+
+
 
