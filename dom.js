@@ -161,10 +161,45 @@ let itemList = document.querySelector("#items");
 // previousSibling
 // console.log(itemList.previousSibling);
 // previousElementSibling
-console.log(itemList.previousElementSibling);
-// @ts-ignore
-itemList.previousElementSibling.style.color = "green";
+// console.log(itemList.previousElementSibling);
+// // @ts-ignore
+// itemList.previousElementSibling.style.color = "green";
 
+
+// createElement
+
+
+let newDiv = document.createElement("div");
+
+// Add class
+
+newDiv.className = "hello";
+
+// Add id
+
+newDiv.id = "hello1";
+
+// Add attr
+
+newDiv.setAttribute("title", "Hello div");
+
+// Create a text node
+
+let newDivText = document.createTextNode("Hello World");
+
+// Add text to div
+
+newDiv.appendChild(newDivText);
+
+let container = document.querySelector("header .container");
+let h1 = document.querySelector("header h1");
+
+
+console.log(newDiv);
+
+newDiv.style.fontSize = "50px";
+
+container.insertBefore(newDiv, h1);
 
 
 
