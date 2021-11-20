@@ -169,38 +169,37 @@ let itemList = document.querySelector("#items");
 // createElement
 
 
-let newDiv = document.createElement("div");
+// let newDiv = document.createElement("div");
 
-// Add class
+// // Add class
 
-newDiv.className = "hello";
+// newDiv.className = "hello";
 
-// Add id
+// // Add id
 
-newDiv.id = "hello1";
+// newDiv.id = "hello1";
 
-// Add attr
+// // Add attr
 
-newDiv.setAttribute("title", "Hello div");
+// newDiv.setAttribute("title", "Hello div");
 
-// Create a text node
+// // Create a text node
 
-let newDivText = document.createTextNode("Hello World");
+// let newDivText = document.createTextNode("Hello World");
 
-// Add text to div
+// // Add text to div
 
-newDiv.appendChild(newDivText);
+// newDiv.appendChild(newDivText);
 
-let container = document.querySelector("header .container");
-let h1 = document.querySelector("header h1");
+// let container = document.querySelector("header .container");
+// let h1 = document.querySelector("header h1");
 
 
-console.log(newDiv);
+// console.log(newDiv);
 
-newDiv.style.fontSize = "50px";
+// newDiv.style.fontSize = "50px";
 
-container.insertBefore(newDiv, h1);
-
+// container.insertBefore(newDiv, h1);
 
 
 
