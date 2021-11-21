@@ -219,7 +219,9 @@ let itemList = document.querySelector("#items");
   // output.innerHTML = "<h3>'+e.target.id+'</h3>";
   // console.log(e.type);
 
-  //events for mouse
+
+  //EVENTS FOR MOUSE
+
 
   // console.log(e.clientX);
   // console.log(e.clientY);
@@ -246,20 +248,40 @@ let box = document.getElementById("box");
 // box.addEventListener('mouseleave', runEvent);
 // box.addEventListener('mouseover', runEvent);
 // box.addEventListener('mouseout', runEvent);
-box.addEventListener('mousemove', runEvent);
+// box.addEventListener('mousemove', runEvent);
 
-function runEvent(e){
-  console.log('EVENT TYPE: '+e.type);
+// function runEvent(e){
+//   console.log('EVENT TYPE: '+e.type);
 
   // output.innerHTML = '<h3>MouseX: '+e.offsetX+' </h3><h3>MouseY: '+e.offsetY+'</h3>';
 
   // box.style.backgroundColor = "rgb("+e.offsetX+","+e.offsetY+",40)";
   // document.body.style.backgroundColor = "rgb("+e.offsetX+","+e.offsetY+",40)";
+// }
+
+
+// KEYBOARD & INPUT EVENTS
+
+
+let itemInput = document.querySelector('input[type="text"]');
+let form = document.querySelector('form');
+
+// itemInput.addEventListener("keydown", runEvent);
+// itemInput.addEventListener("keyup", runEvent);
+// itemInput.addEventListener("keypress", runEvent);
+
+// itemInput.addEventListener("focus", runEvent);
+// itemInput.addEventListener("blur", runEvent);
+
+// itemInput.addEventListener("cut", runEvent);
+// itemInput.addEventListener("paste", runEvent);
+
+// itemInput.addEventListener("input", runEvent);
+
+function runEvent(e){
+  console.log('EVENT TYPE: '+e.type);
+
+  // console.log(e.target.value);
+  // document.getElementById("output").innerHTML = "<h3>"+e.target.value+"</h3>"
+
 }
-
-
-
-
-
-
-
