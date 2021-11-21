@@ -201,7 +201,11 @@ let itemList = document.querySelector("#items");
 
 // container.insertBefore(newDiv, h1);
 
+let button = document.getElementById("button").addEventListener("click", buttonClick);
 
+function buttonClick(){
+  console.log("Button clicked");
+}
 
 
 
