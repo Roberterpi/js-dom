@@ -203,9 +203,9 @@ let itemList = document.querySelector("#items");
 
 // EVENTS
 
-let button = document.getElementById("button").addEventListener("click", buttonClick);
+// let button = document.getElementById("button").addEventListener("click", buttonClick);
 
-function buttonClick(e){
+// function buttonClick(e){
   //console.log("Button clicked");
   // document.getElementById("header-title").textContent = "Changed";
   // document.querySelector('#main').style.backgroundColor = "lightgrey";
@@ -228,13 +228,22 @@ function buttonClick(e){
   // console.log(e.altKey);
   // console.log(e.ctrlKey);
   // console.log(e.shiftKey);
+  // }
+
+
+// Mouse Events
+
+
+let button = document.getElementById("button");
+
+// button.addEventListener("click", runEvent);
+// button.addEventListener("dblclick", runEvent);
+// button.addEventListener("mousedown", runEvent);
+// button.addEventListener("mouseup", runEvent);
+
+function runEvent(e){
+  console.log('EVENT TYPE: '+e.type);
 }
-
-
-
-
-
-
 
 
 
