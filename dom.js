@@ -263,8 +263,8 @@ let box = document.getElementById("box");
 // KEYBOARD & INPUT EVENTS
 
 
-let itemInput = document.querySelector('input[type="text"]');
-let form = document.querySelector('form');
+// let itemInput = document.querySelector('input[type="text"]');
+// let form = document.querySelector('form');
 
 // itemInput.addEventListener("keydown", runEvent);
 // itemInput.addEventListener("keyup", runEvent);
@@ -278,18 +278,37 @@ let form = document.querySelector('form');
 
 // itemInput.addEventListener("input", runEvent);
 
-function runEvent(e){
-  console.log('EVENT TYPE: '+e.type);
+// function runEvent(e){
+//   console.log('EVENT TYPE: '+e.type);
 
   // console.log(e.target.value);
   // document.getElementById("output").innerHTML = "<h3>"+e.target.value+"</h3>"
+// }
+
+
+// ADD SELECT LIST AND USE CHANGE EVENT
+
+
+let itemInput = document.querySelector('input[type="text"]');
+let form = document.querySelector('form');
+let select = document.querySelector("select");
+
+// select.addEventListener("change", runEvent);
+// select.addEventListener("input", runEvent);
+
+// function runEvent(e){
+//   console.log('EVENT TYPE: '+e.type);
+// console.log(e.target.value);
+// }
+
+
+// SUBMIT EVENT
+
+
+form.addEventListener('submit', runEvent);
+
+function runEvent(e){
+  e.preventDefault();
+  console.log('EVENT TYPE: '+e.type);
+  // console.log(e.target.value);
 }
-
-
-// ADD SELECT LIST
-
-
-
-
-
-
