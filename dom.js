@@ -204,7 +204,8 @@ let itemList = document.querySelector("#items");
 let button = document.getElementById("button").addEventListener("click", buttonClick);
 
 function buttonClick(){
-  console.log("Button clicked");
+  //console.log("Button clicked");
+  document.getElementById("header-title").textContent = "Changed";
 }
 
 
