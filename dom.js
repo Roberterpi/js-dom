@@ -201,6 +201,8 @@ let itemList = document.querySelector("#items");
 
 // container.insertBefore(newDiv, h1);
 
+// EVENTS
+
 let button = document.getElementById("button").addEventListener("click", buttonClick);
 
 function buttonClick(e){
@@ -209,12 +211,23 @@ function buttonClick(e){
   // document.querySelector('#main').style.backgroundColor = "lightgrey";
   //event parameter
   //console.log(e);
-  console.log(e.target);
-  console.log(e.target.id);
-  console.log(e.target.className);
-  console.log(e.target.classList);
-  let output = document.getElementById('output');
-  output.innerHTML = "<h3>'+e.target.id+'</h3>";
+  // console.log(e.target);
+  // console.log(e.target.id);
+  // console.log(e.target.className);
+  // console.log(e.target.classList);
+  // let output = document.getElementById('output');
+  // output.innerHTML = "<h3>'+e.target.id+'</h3>";
+  // console.log(e.type);
+
+  //events for mouse
+
+  // console.log(e.clientX);
+  // console.log(e.clientY);
+  // console.log(e.offsetX);
+  // console.log(e.offsetY);
+  // console.log(e.altKey);
+  // console.log(e.ctrlKey);
+  // console.log(e.shiftKey);
 }
 
 
